@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class AutoResource {
 
     //cambio
+    //conflict
     @GetMapping(path = "car/{id}",produces = "application/json")
     public AutoResponse getAutoById(@PathVariable(name = "id") Long id){
 
