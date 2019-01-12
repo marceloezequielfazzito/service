@@ -26,6 +26,13 @@ public class Car {
         this.price = price;
     }
 
+    public Car(Long id ,String brand, String model, Double price) {
+        this.id = id;
+        this.brand = brand;
+        this.model = model;
+        this.price = price;
+    }
+
     public Long getId() {
         return id;
     }
